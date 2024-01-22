@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.main-head .main-wrapper img {
+  width: 50%;
+}
+.preview {
+  padding: 120px 20px;
+}
+.shopping {
+  padding: 0 5px 120px;
+  margin: 0 15px;
+  border-bottom: 3px solid #fff;
+}
+.shopping .shopping-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  gap: 20px;
+}
+.shopping .shopping-wrapper li {
+  width: calc(50% - 10px);
+}
+.shopping .shopping-wrapper li:first-child {
+  width: 100%;
+}
+.description {
+  font-size: 18px;
+}
+.description .object-wrapper {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+.description .object-wrapper img {
+  width: 100px;
+}
+.description .text-part1 {
+  padding: 120px 30px;
+}
+.description .text-part2 {
+  padding: 0 30px;
+}
+.description .logo-object img {
+  margin: 120px auto;
+}
+.stores {
+  padding: 120px 5px;
+}
+.brands {
+  padding: 0 5px 120px;
+}
+.brands-wrapper .brands-item-wrapper {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.brands-wrapper .brands-item-wrapper img {
+  width: 100%;
+  max-width: 200px;
+}
+.stores-wrapper .store-item {
+  padding: 120px 20px 0;
+}
+.stores-wrapper .store-item:last-child {
+  padding-bottom: 120px;
+}
+footer .ft-img-wrapper img {
+  width: 85%;
+  max-width: 350px;
+}
+footer .ft-img-wrapper img:last-child {
+  max-width: 700px;
+}
