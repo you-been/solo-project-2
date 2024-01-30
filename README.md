@@ -22,11 +22,15 @@ side-menu js로 이벤트 부여
 mobile, tablet 버전 css작업
 
 **01/21**  
-pc 버전 css작업
+pc 버전 css작업  
+favicon 설정
 
-**1/22**  
+**01/22**  
 사이드 메뉴 버튼 눌렀을 때 새로고침 되는 부분을 preventdefault로 고침  
 닫기 버튼을 눌러 사이드바를 닫는 작업의 불편함에 ux를 고려하여 사이드바 외부 클릭시에도 사이드바를 닫을 수 있도록 변경  
 aos 라이브러리로 스크롤 애니메이션 부여  
-모바일 버전에서 store파트 hover시 image를 감싸는 a의 높이 변경되는 문제 내부 image에 display: block값으로 변경하여 고침  
+모바일 버전에서 store파트 hover시 image를 감싸는 a의 높이 변경되는 문제 내부 image에 display: block값으로 변경하여 고침
+
+**01/23**
+og설정
 최종 점검 후 완성
